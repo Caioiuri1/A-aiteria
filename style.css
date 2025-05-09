@@ -103,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-left: 24rem;
+    margin-left: 35rem;
 }
 
 .box-img img {
@@ -217,9 +217,9 @@ body {
 }
 
 .box-compras.fim{
-    width: 18.3rem;
+    width: 20rem;
     z-index: 9000;
-    height: 93vh;
+    height: 85vh;
 }
 
 .h1-pagamento h1{
@@ -284,7 +284,7 @@ body {
 .menu.abrir {
     width: 50%;
     z-index: 1000;
-    height: 93vh;
+    height: 85vh;
 }
 
 .logo {
