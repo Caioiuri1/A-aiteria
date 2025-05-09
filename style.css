@@ -103,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-left: 30rem;
+    margin-left: 24rem;
 }
 
 .box-img img {
@@ -217,8 +217,9 @@ body {
 }
 
 .box-compras.fim{
-    width: 20rem;
+    width: 18.3rem;
     z-index: 9000;
+    height: 93vh;
 }
 
 .h1-pagamento h1{
@@ -283,12 +284,14 @@ body {
 .menu.abrir {
     width: 50%;
     z-index: 1000;
+    height: 93vh;
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 2rem;
 }
 
 .logo img {
@@ -429,7 +432,7 @@ body {
 
 .contato {
     background: white;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .contato-box {
@@ -438,8 +441,8 @@ body {
     width: 30%;
     min-height: 450px;
     position: absolute;
-    margin-top: 30px;
-    margin: 30px 50px;
+    margin-top: 5rem;
+    padding: 30px 50px;
     margin-left: 10rem;
     border-radius: 20px;
 }
@@ -501,7 +504,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 50%;
-    margin-top: 30px;
+    margin-top: 5rem;
     flex-direction: column;
 }
 
