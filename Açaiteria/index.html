@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,704&family=Funnel+Display:wght@300..800&family=Funnel+Sans:wght@700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@600&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/e453b67a841a1d2aa294768e47488087.jpg">
+    <title>Açaiteria</title>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#inicio">
+            <img src="img/LOGO.PNG" alt="logo">
+        </a>
+        <ul class="nav-ul">
+            <li>
+                <a href="#monte-seu-açai">Monte seu Açai</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+            <a href="">
+                <button id="btnmenu">Fazer Pedido</button>
+            </a>
+    </div>
+
+    <section class="main">
+        <div class="main-title">
+            <h1>JÁ <br>TOMOU</br></h1>
+            <h3>SEU AÇAI HOJE?</h3>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="img/eb9a07a703bcc1e7bf151af35192c959.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <Section class="monte" id="monte-seu-açai">
+        <div class="box-monte">
+            <div class="box-ajuste">
+                <div class="h1-box">
+                    <h1>MONTE SEU AÇAI</h1>
+                </div>
+                <div class="h3-box">
+                    <h3>QUEM MANDA É VOCÊ! MONTE O SEU!</h3>
+                </div>
+                <div class="p-box">
+                    <p>Confira a variedade de adicionais que temos <br>para montar um Açai do seu jeito</p>
+                </div>
+                <div class="img-monte">
+                    <img src="img/340280c8e48a5aa0f01abc93a10fe149.png" alt="copos-de-açai">
+                </div>
+            </div>
+        </div>
+
+        <div class="box-elementos">
+            <div class="box-adicionais">
+                <img src="img.elementos/leite condensado.png" alt="leite condensado">
+                <p>Leite condensado</p>
+            </div>
+            <div class="box-adicionais">
+                <img src="img.elementos/leite em po.png" alt="leite em pó">
+                <p>Leite em pó</p>
+            </div>
+            <div class="box-adicionais">
+                <img src="img.elementos/nutella.png" alt="nutella">
+                <p>Nutella</p>
+            </div>
+            <div class="box-adicionais">
+                <img src="img.elementos/morango.png" alt="morango">
+                <p>Morango</p>
+            </div>
+            <div class="box-adicionais">
+                <img src="img.elementos/kiwi.png" alt="kiwi">
+                <p>Kiwi</p>
+            </div>
+            <div class="box-adicionais">
+                <img src="img.elementos/banana.png" alt="banana">
+                <p>Banana</p>
+            </div>
+        </div>
+
+        <div class="button" id="btn-menu">
+            <button>Fazer Pedido</button>
+        </div>
+
+        <div class="box-compras" id="box-compras">
+            <div class="h1-pagamento">
+                <h1>Pagamento:</h1>
+            </div>
+            <div class="Código-QR">
+                <img src="img/QR_code_for_mobile_English_Wikipedia.svg.png" alt="">
+            </div>
+            <div class="chave-pix">
+                <p>CHAVE: caioiuriamorim</p>
+            </div>
+            <div class="concluir">
+                <button>Concluir</button>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <div class="fechar" id="fechar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAWklEQVR4nGNgGAWjAAtghGKaAMYQ2aCJoXJBM2hhCSPE8OD/oXLB/4Llgx1oZnioXHDeqOE0DxYQYAyVC54At0A2KJ+BBoBx1JJBk9HQ4oQ2RQVdCrtRMAQBAO41QcdihJ8dAAAAAElFTkSuQmCC"
+                    alt="back--v1">
+            </div>
+            <div class="logo">
+                <img src="img/Design sem nome.png" alt="logo">
+                <h1>Fazer Pedido</h1>
+            </div>
+
+            <div class="açai-potes" onsubmit="enviarWhats(event)">
+                <div class="h1-potes">
+                    <h1>Potes Açai</h1>
+                </div>
+                <div class="ex-potes">
+                    <button id="300ml">300ml <br>R$ 15,00</button>
+                    <button id="400ml">400ml <br>R$ 17,00</button>
+                    <button id="500ml">500ml <br>R$ 19,00</button>
+                    <button id="700ml">700ml <br>R$ 23,00</button>
+                </div>
+                <div class="h1-elementos">
+                    <h1>Complementos:</h1>
+                </div>
+                <div class="elementos">
+                    <h1>Leite condensado</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Leite-condensado">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Leite em pó</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Leite-em-pó">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Nutella</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Nutella">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Granola</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Granola">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Morango</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Morango">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Kiwi</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Kiwi">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="elementos">
+                    <h1>Banana</h1>
+                    <div class="contador-just">
+                        <button class="minus">-</button>
+                        <span class="value" id="Banana">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="Finalizar-Pedido" id="finalizar-compras">
+                    <button type="submit">Finalizar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <section class="contato" id="contato">
+        <div class="contato-box">
+            <div class="contato-ajuste">
+                <div class="h1-contato">
+                    <h1>FALE CONOSCO</h1>
+                </div>
+
+                <form onsubmit="enviarWhats(event)">
+                    <div class="box-input">
+                        <label for="firstname">Seu Nome</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="number">Seu celular</label>
+                        <input type="tel" id="number" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="text">Sua mensagem</label>
+                        <input type="text" id="text" name="text" placeholder="Digite sua mensagem" required>
+                    </div>
+
+                    <div class="input-buttom">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="maps">
+            <div class="h1-maps">
+                <h1>Onde nos Encontrar:</h1>
+            </div>
+            <div class="img-maps">
+                <a
+                    href="https://www.google.com/maps/place/R.+Ambr%C3%B3sio+dos+Santos,+192+-+Rajada,+Petrolina+-+PE,+56345-000/@-8.8151588,-40.8326987,19.5z/data=!4m6!3m5!1s0x77444f73b080a03:0x93de17cf345ed978!8m2!3d-8.8155136!4d-40.8331693!16s%2Fg%2F11s9x4jjzc?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D">
+                    <img src="img/Captura de tela_4-5-2025_161135_www.google.com.jpeg" alt="maps">
+                </a>
+            </div>
+            <div class="localizaçao">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADRElEQVR4nO2aS0hUURjH/1YWWUQbo5dU2ywqxmyc+507bbQgaBH0sKKWPWgRBSoEYbSIVkUSZW1aBUEPqE1PomhV1CLIbBEaSZRQgZiSNv3j3q42ZeY55z5mhD74YJjF/39/5ztzznfOHeB/jAymMY8KO6lwjoKHVOikwqcgOyl4QIVWOtjBDOaimIKLMZkutgYPnqMCNTPngwnqmUJp4QCAEgq2B6POUCno8AcDKEkWQmERFe6HBhiZd1mDBUlBrAnmPGPKj1SoixfCm8+CwRghGEy1b96CEA+Ei02GP+bwMC42RAuRQRUV+hKDUMP5hS5WRAORQhkV2gsAwaAyL5nG1PAggqOWD9BGQQsFjUF6n9ssgZrDQWQx2y+vGYC3ya0aVdNBOtg8TTR7WYNZ9iCCw4aGxwhMGFMXmECF44bah+xBzHbtUxYD1WKg/9oOwsVSA5N2ZjHJ2COFUiq80vZxUGkOIthjUPZ6Y4MhH4VtBgO2y8bgtKZ4H2sxzRoki+kU9Mc1fUGFq5rVeGwLkef1RNPrso34Hc1Ruh4ByA1NkNs24tc0xe9FAKJ3JBBcsRFv1RTviADkjabXGXNxQUOsy+KQTxZLtH1cHLQBcbQNBGetQQTnDQYsbW6wFlO0+yzvsJVBlbGHQrX2QU3Q6110GIP4RoJLBlV5a3LeZhYLqdClra9w0QrCN3Ox3sDIyw90Uat57u821F4X7s5K8M7Q0KvOTSpspqB8WEtQTsEWCm4Z6yl0hb77okKThXE+VL9BC8JRNBpCQfggWcykQk+oBwmXPd4zhAYJqnKkgCDNkUDkdajvCwDRzWrMiAzEh1HYlziIYG+kED7IRkyk4FmCEE89z8hBfBgXKxO6bcxZtSNGMIKTCVTjRKwQwz2Y4HmMIC8iuVnUgslgORW+xgAxYNN8FnbH//uUakwUIu+2MMq3Vo9iW6XGhFGo8Dve8BBeJ1xREIg/TpIDIabTIB2sRjEEBQdCVGM/iikouGABYX/qiyu8a1OjFsZrQVIoQzEGFeZo3lF1MYv5KOagg0oKPv8DoocOlmE8BBXqRlnJBmL/M0DU4f+35PdOOed9h/EY/PWy6DsVdmM8B3/2ZE1xG/0Azs1vLjndU7YAAAAASUVORK5CYII="
+                    alt="marker--v1">
+                <p>R. Ambrósio dos Santos - Rajada
+                    Petrolina - PE</p>
+            </div>
+        </div>
+
+        <div class="box-descriçao">
+
+            <div class="footer">
+                <img src="img/Design sem nome.png" alt="logo">
+                <p>Sensação boa é comer o <br>melhor açai da cidade</p>
+            </div>
+
+            <div class="fale-conosco">
+                <h1>Fale Conosco</h1>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2ZW2iPcRjHP9sww+S4OTSEmgsuiKQooiwXCKPEHFZkyZUrhyS5cLhzuOBiF1LTSMIkc0hbiraQREjOOYzNIQybfvVdPf173///P/7v9qP/p3bz3/P+fs/7vr/neb7P80KaNP89I4EyoBK4BTQCDcAOIBvP6QIUA9VAC9Aa8ncZ6I2HZAALgXvG2Y/AEWA5MA7oA8wAnun/dcBAPGIScN3cwH1gHZAbYj/c3PANoCedjDvnO4Efcuo5sEbHKxH5wENddybJayJhAnBbjvwEdgE92rnGaOCN1thDJ1AKfJMD7ohM+Yu1pgLNSgxFdBBdgQMmFvYBOSlYd6PWq6UDyAOuasOvQEkK1+6rdT8TMYXAE232FJiY4gd00qTjyBgPvNZGNco2qWKxCXZX9ScTES4QP2ijswnioVc71h0EnDCxdgEYRkTMBr5oowoFehBZwGZlsXJgSIJ1S6S33LpNqjtOFUTCAuC7NjskZ4Nwx+xKjIb6pBvLCajm54xdFVBAhBSZm9gT52mNBR7L7hWwNOa4uOSwQlpqvXSX+/2dtFekTDXHKV6lnalj4ewuxSSA6UB9iOKtUJYi6uzUqA0Px3kTc1RHWqVsuwXYZAIrdUO/gJvAXDqAQpNij8WJCRs7e6MM0j8h3xS7qpAn7FhiVK5TvF7R1ciOmjjqdZ6EnbPbhocclHMv4+T/WSYmtuMhpUYAug4viGkmi+3GQyaYfsLl+rAE0GDkundkm85uf4hNf+CBbCqVTr1jp+nsgkRgpkRcW6PTHU+PVLOKlKviQWzSTTh5PRQPyTAjm7DAzTWxswxPWSQHXySYdpTLzglA78gC7spBp/8TVfo2QehqiFcUmwlgMoOwLbKv9y1jVcsxN8ZMhhyjv8LqTKeM9lvU2ITNYoNY3RGTjfZQZnqH9pBnxqFeUPmH6XSDrruDJ9yWQ+77RLKM0BDBXTcfT2iSQ24smWzhvKhrjuIRb+WU67WTYa3sXes7AI/YakY2oxLYFpg36GqPd+3seTn3KMEksEp2x/GUHurJWzVUGxNgs8oM0FI5qE45/YBrxlnXxrYxGHjvu+qNfTOn5HCzvhT1Nb+d5h8iSx8uYz/mN/raSCUzrK7VlKQuyo8sadLgF78BcM8G98yji0EAAAAASUVORK5CYII="
+                    alt="phone-disconnected">
+                <p>(87) 9999999</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFCUlEQVR4nO2aW4hVZRTHf45Tjs5QzdGxC3Q1uxM9ZBlF9SCWlTUNJRgKFUoXUcMub009lNEFAkmSoJfsZvVQhkWWmmGWWqmFlbeITLEaungbR80Ti/4fLM7Ze5999jl7ToR/2HD4vrXXd1vfWv+19oEj+P+iAHQCTwOLgO+B34E+Pfb7O/WZzE1AO/8RtACTgcXA30CxyucQ8AEwCRjUiAUMBu4HdrhJ7QeWAg/rZM7Vjh+lp11t1tcNLNM74f3twCxtTr/gemCrm8AaYApwbAZdxwFTgS+cvi3AOHKE7dQ8N+CXwNg66r8WWOv0z83jdE7QxG2AvcB0YGC9B+FfnTOBfe60j6+X8tN13EV5nQvIHxcCGzXmZs2hJnQ4hauBYfQf2oEVGnurrCITWpw5rQRa6X+0Ap87M8t0Z+Y5c7Jg1ygMdVZhDqBqFxsudn/ciTR3Zp/mZN4tdbALccK8UxwsuH2oxZrsj8BV5If73OVPZWIPuDgR52JHAr9FUI7t2og80Ays0zi2qES0ONoRF+xscask866L6KvVdif5YZzG+LkSN5vkPEQcbpSMsdshrn2y2o1u5IUBzpPeliS4WELGneKwUDJ3RJzmr+q7lPxwl8Z4P06gIFq9vwIB3ClFp0X0PaG++eQbKPuAg3Hz7NQkjIon4YDkoi71KdqM3bqceeFjzcHMvAzPqNPyiST0SO6siL6x6vsjJ1IZ8KjGeYoILFKnpaBJWCo5u9weZ7tFWoKUJ252XrMMm9RpgS4J0yX3Scxxv53zaRjOd56zDGE3jdskwS7YHsmOce0hy7uX/DFMY1lQLkOfOo9OoehxyW5ydOFWte0CziBfDHJ1gjL0JnijUgxxydazrn2B2r4BjqFBC9mhzpNSKrtErvgwMEFtNvlvpeezCvFolBxLW71Na4M67SKlxUy9YxR7tNpOBX5Q+8aYNGCKNqCowp0F0hPrddkD9eiiOjyv934RKw6Bca1bZLfLMK92J7nGMWcz7bkp8/Pgfm3OZehWp+1ONWgW7wk0/hy12117we18j3QH+j9bchcDb7pK5SHgoVoC4nUpKUoUbLeXuAnbrgdcAXxakrdYIGsq0WHx62X1m3tPwnLJjY+bzB6RseEZFmOe7B0NcEC76gPj5aoDPFZC/z2G6/0/E8YpONIY6xlfl6JpZEOTjjuY0wqZTlp06T1LJ+Jwt2TeI0XStE5JTFZcA2yTrsOiLWMizMnjTFcreDBGxub0lWQmJk2gycWBar1XVIF6tih90aWoTwJXigq1aQF2ef9ym9haobqzLc1niJDurqc+6FBqEEhp0vNGgt03a04mNyPNwCdLeHcFU8iCy4A5wNcqI+1SGelVnVISZrkgm+qj0O1JwaZBuMhxwdSfMmr1XPVGh4pyRZ1mKgx0eckIGo82V0NbVc13xtGuLNloFBwj2FLtB59H9OJzNP5ObHbJW1TpKREr9fINNAbN8k69zpyqpku+QBcXkEaotvuSonVnjQwgYICC3XoXU+Zk/fY+QQo+cm0jlQTNd5Sj9LG09p6MRLMg7hRoR1GmVNPX4helyOj4K8otSidttd23VBKa6uhMyCOWiZbcApynrK9FBY2hyha7dBeXu4JHoB0z6vEPiJ8iJr5TtGGa0stSM2pSTrDAlYiqeQ6qMDixnn/hWKJTeE2mUqlQV4rBsvNu3Z8NKmj0aud7dIILRfXH51xpOQIaiX8Aj4PBez3GiikAAAAASUVORK5CYII="
+                    alt="whatsapp--v1">
+                <p>(87) 9999999</p>
+            </div>
+
+            <div class="institucional">
+                <h1>Institucional</h1>
+                <li>
+                    <a id="">Home</a>
+                </li>
+                <li>
+                    <a href="monte-seu-açai">Monte seu Açai</a>
+                </li>
+                <li>
+                    <a href="conatto">Contato</a>
+                </li>
+            </div>
+
+            <div class="encontrar">
+                <h1>Onde nos <br>encontrar?</h1>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADiklEQVR4nO2ZS08UQRCA56BeJD4OxAS2enzgI3oxoh6MSOLjvDtVXUvCcuYPKPgHIMpR8KASwf9gxCCsURN/goJ3PCkaWSNeYE3NY4GEnZ2X20uylVQyh6nu+qaqumu6LastbTEvfJzPsqL7DLjIQEta4W9WVM1C3bFAxqQFrXBU5socgIAuM1A5K6cjK+BHUnQtNcBw7/B+DfiYFW02HULVdJOBpvqt/n2JIAbV4FEN9NYgQHVndKgsPsWOhJFUUo0UP/B5PhAZxE+nFnCcdovMZPTCNlsT1Qa6yYp7G4K0ZkrRDpUlOso+Yc5BoFdOt5MTZcC5sHexG0/XB5HNziCI0+3kAl8GuvIQ/j6O1AWRkO0dEHoTBvIlvUO4qgGfE1BeUnXo2NBBUXku5rDACme0wh+72gLOCYAP8Tp0HsDlsEJfSwHwhxWNlXpKh0ILUeY5yYe1wnHfJtl8QGthNZIUYmX7ksjg3GHAaflq0gzWGkLAZ0WFt3cu9WKbbF4rWxBcCXJ7oKtwRit6H8HmXbDquCtUQhgrOxBJDS8SxRzeqJv7dWqJgPo8W+eKBlw3GZGxrUjEgdiC4Rz3yBha4UNDILgqRes5ESWddlfpsGWMvJ0/EvdjZAIiS2ytsBNCBEqKbvnzzzYdRPYJDwSn04KwoqfuWLbjNB1E6sIHWU4NArSUpNezMqmRTu7wbLCSPiJYccfq5I49DaIBf8lYpZ7SoT2dWhros7HUKuawIDbSdmSQWk9kLLIJm59aCmfERnqn9CDOTfejKHxhdEOU3ikxBFA52BAZ6KcBEPeYc9yz4xNa4bc0LQoDTcS1zw4EcF1acTe/gfpcx6Lbf2fg6+68Ob5qummsbm/j5etGOp0EKg9A4ZTYyN+gVvQ1ydxWtiAejLTiwTjSO0nbIcuqt89ghQE/yeoUFHYtEgkhOBQkxa+unxoPpGitBuIX9gQD/f0vv7o6g8MHvxWflQYQbTznth2d3OE+247jLrExVyeOe/hg+jiI46XzfAgIjpp3kKJF3sa7dUHkQMC0gxyz16sr7v1gCzjKSU8ZayA2X9QKN1o2pZT4FuFawYsKTbUsCOAjK6rIxWMrppiW05o4V28icvHYUpc+gItRNtuQyNCkyas4rXBD0inx9fR2IaALDPjSQCotFJVzycpavH0GR2T5kyOcbE5QAsWK32TOs6J7oVdrbWmL1TT5BySLwgmGy+40AAAAAElFTkSuQmCC"
+                    alt="instagram-new--v1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJ0lEQVR4nO1aTYwUVRBuRAQNIBBWh9BVjcsSA+Fi8MCNxKggLOx01atedveAJ4zypx69bOIJ1IPExJ+QcOCgRMKBPw0HIHgwxnjxAstPjKDGGDYkhAM/i7umepYI069n3vT0dk8IlVQyycyrru/V9+pVVY/nPZZHVAZxcH7kU9UAfWyATwjQiEG6LkB3VGuf+bx+p79h4L6+oG+e1wmyrmfdTINmSJBOCtI9QZ5oTeM130tAg2rLK1rEl6cF6H2D/FfrzqeC+tNA+O6WYMusQkBwwG8Y5Mv5AUgAuhT5tHZqaQS0d+oA1CnwAY18riA2v7DxeUH6pTAQWFOD/HPYHT6XC4j+oG+JhrtoEPK/XlQf2gIhFenSNFoiiInJyFyWQCqZQGj2KINO0oBmmVK0QfqibOelXoE/aznFlu402pWBX2/htuYLZTssqUqXnC5NvbGdOAt0V5B39i7qfWbYG35CIHzNIP1bDMVol0s0nMoOA+at+vUG+WhBkfmj4cGvFYAOIJDP2tZraVEYxXweSKdVXMU6hbY/xcS0ws4X0Hep/YRzKe5LT+pmAO0qKCpjQz1Dc220qLoaacRPbZYmE8GUg4mANlp2kj9xNlKRrjQg/VBdKsjjxdCLP7IBOe5uJNxgA7F11dYZBvh0QdSaEKBjSSDIF92N0LcdUdYAjdiAjLoaiM9At2AyqnSmSCAG6ZqFWnSnRUMHE+cjqC43QLeKiwjfTtIigwMcMCXs+OE7pQIRoL8zhPY6LaHAsil7S6OWAT6XzSD9uunFTXPqzE1rms6Bf88+D+P7Ns63mX7rdkYni55MT2xObXh307JmlJC643MF1aWa7bJQ2yAftZ2RD9sLNe3Xcr7ebrg49A3S1w+U+GOC4SuJjQykYpB2G6AbLURkT1slSgPDB/RSTBj3PI8W0zK9iQVDY/v+od+h2/MYuTdJrW55VrNADmBOiS8LvIwysGhgoRud6a61aMy1MYoPcpI+LhIFtN7xGcfbbqwcdVyA9ukZaQWIIB9xiohvNqcaUX4L0JW8Ly1B/pyBX24EQFsDQfrSCQTyVVkhTzXbkW25AnmI13xOgD/ggF/SoYV0yex4JAv0tgD95mwHwx2Os96pAZJPhGnEaeIoQG+W7iym6niE9GpTEDVq0Tcd4PBEin7qBsKT6a30JcUq/dT0gN+XKAhXl+8wW18r6Msmz1UM0nAHgrhgaxUaUwvox46jUyV9YtP+gK4Y/SrTix0BjjrlnohcU6wVCNL+5nylawJ0WF8nCPB7teIwt7NwVW/stv8BoaP65O7wPwJ8SJC2R364UlvYB9es8dY8qVNxrZozTk/GtIrVAtA5tTYTQfphcgBxMK59UFbUO95wfZfMnvxTjXaaR7SfVnsxwNqoaVRrrbhVAN6jTZGl138s3qMi/wFXmwsXfbkdQQAAAABJRU5ErkJggg=="
+                    alt="whatsapp--v1">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Caio | <a href="https://caioiuri1.github.io/Portf-lio/">CAIO|&lt;/&gt;</a>. Todos os
+            direitos reservados. © 2025.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
