@@ -162,7 +162,6 @@ body {
     margin-top: 1.8rem;
     padding-left: 50px;
     gap: 3rem;
-
 }
 
 .box-adicionais img {
@@ -201,7 +200,7 @@ body {
     transform: translateY(-10px);
 }
 
-.box-compras{
+.box-compras {
     background: #ffffff;
     position: absolute;
     width: 00%;
@@ -216,29 +215,29 @@ body {
     transition: .9s;
 }
 
-.box-compras.fim{
+.box-compras.fim {
     width: 20rem;
     z-index: 9000;
     height: 85vh;
 }
 
-.h1-pagamento h1{
+.h1-pagamento h1 {
     color: #000000;
     margin-top: 10px;
     margin-left: 10px;
     font-size: 25px;
 }
 
-.Código-QR{
+.Código-QR {
     margin-left: 50px;
     margin-top: 20px;
 }
 
-.Código-QR img{
+.Código-QR img {
     height: 200px;
 }
 
-.chave-pix p{
+.chave-pix p {
     color: #000;
     margin-left: 50px;
     margin-top: 20px;
@@ -246,12 +245,12 @@ body {
     font-size: 20px;
 }
 
-.concluir{
+.concluir {
     margin-left: 40px;
     margin-top: 26rem;
 }
 
-.concluir button{
+.concluir button {
     background: #ffcc34;
     color: #551e53;
     border: none;
@@ -261,7 +260,7 @@ body {
     transition: all 0.8s ease-in-out;
 }
 
-.concluir button:hover{
+.concluir button:hover {
     transform: translateY(-6px);
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.288);
 }
@@ -354,6 +353,7 @@ body {
     transform: translateY(-5px);
     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.548);
 }
+
 .ex-potes button.selected {
     background-color: #6a1b9a;
     color: white;
@@ -389,7 +389,7 @@ body {
     margin-top: 3px;
 }
 
-.contador-just button{
+.contador-just button {
     background: #ffffff;
     color: #000;
     padding: 3px 10px;
@@ -408,14 +408,14 @@ body {
     color: #000;
 }
 
-.Finalizar-Pedido{
+.Finalizar-Pedido {
     display: flex;
     position: absolute;
     left: 40%;
     margin-top: 70px;
 }
 
-.Finalizar-Pedido button{
+.Finalizar-Pedido button {
     padding: 10px 60px;
     background: #ffcc34;
     color: #551e53;
@@ -425,7 +425,7 @@ body {
     transition: all 0.8s ease-in-out;
 }
 
-.Finalizar-Pedido button:hover{
+.Finalizar-Pedido button:hover {
     transform: translateY(-6px);
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.288);
 }
@@ -601,17 +601,17 @@ footer {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px) {
 
-    .nav{
+    .nav {
         padding: 25px 60px;
     }
 
-    .nav-ul{
+    .nav-ul {
         display: none;
     }
 
-    .nav img{
+    .nav img {
         height: 40px;
     }
 
@@ -621,7 +621,7 @@ footer {
         align-items: center;
         min-height: 75vh;
     }
-    
+
     .main-title {
         margin-left: 30px;
     }
@@ -632,9 +632,9 @@ footer {
         margin-top: 10rem;
     }
 
-    .main-title br{
+    .main-title br {
         display: none;
-        
+
     }
 
     .box {
@@ -643,7 +643,7 @@ footer {
         margin-top: 3rem;
         margin-left: 0rem;
     }
-    
+
     .box-img img {
         height: 20rem;
     }
@@ -661,7 +661,7 @@ footer {
         width: 100%;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 0px;
-    
+
     }
 
     .box-ajuste {
@@ -682,7 +682,7 @@ footer {
         margin-top: 1rem;
         font-size: 39px;
     }
-    
+
     .p-box p {
         margin-top: 1rem;
         font-size: 25px;
@@ -690,7 +690,7 @@ footer {
         font-weight: 100;
     }
 
-    .img-monte img{
+    .img-monte img {
         height: 300px;
     }
 
@@ -699,10 +699,9 @@ footer {
         grid-template-columns: repeat(2, minmax(60px, 1fr));
         position: absolute;
         margin-left: 0%;
-        margin-top: 45rem;
+        margin-top: 50rem;
         padding-left: 35px;
         gap: 3rem;
-    
     }
 
     .button {
@@ -711,9 +710,9 @@ footer {
         align-items: center;
         justify-content: center;
         margin-left: 25%;
-        margin-top: 97rem;
+        margin-top: 102rem;
     }
-    
+
     .button button {
         width: 200px;
         height: 50px;
@@ -723,20 +722,6 @@ footer {
         font-size: 16px;
         border-radius: 16px;
         transition: all 0.6s ease-in-out;
-    }
-
-    .box-compras{
-        background: #ffffff;
-        position: absolute;
-        width: 000%;
-        margin-left: 83%;
-        margin-top: 1.8rem;
-        position: absolute;
-        height: 85vh;
-        z-index: -1000;
-        border-bottom-left-radius: 16px;
-        border-top-left-radius: 16px;
-        transition: .9s;
     }
 
     .menu {
@@ -755,6 +740,7 @@ footer {
     .menu.abrir {
         width: 100%;
         z-index: 1000;
+        height: 120vh;
     }
 
     .logo {
@@ -769,7 +755,7 @@ footer {
         display: none;
     }
 
-    .logo h1{
+    .logo h1 {
         margin-right: 52rem;
         font-size: 30px;
     }
@@ -783,6 +769,7 @@ footer {
         margin-top: 2rem;
         margin-left: 1rem;
     }
+
     .ex-potes {
         display: flex;
         margin-top: 30px;
@@ -800,7 +787,7 @@ footer {
         border: none;
     }
 
-    .box-compras{
+    .box-compras {
         background: #ffffff;
         position: absolute;
         width: 00%;
@@ -815,10 +802,11 @@ footer {
         transition: .9s;
     }
 
-    .box-compras.fim{
+    .box-compras.fim {
+        margin-top: 45rem;
         width: 20rem;
         z-index: 9000;
-        height: 800px;
+        height: 820px;
     }
 
     .contador-just {
@@ -829,7 +817,7 @@ footer {
         margin-top: 3px;
     }
 
-    .Finalizar-Pedido{
+    .Finalizar-Pedido {
         display: flex;
         position: absolute;
         left: 20%;
@@ -838,7 +826,7 @@ footer {
 
     .contato {
         background: white;
-        min-height: 100vh;
+        min-height: 70vh;
         display: flex;
         flex-direction: column;
     }
@@ -849,8 +837,8 @@ footer {
         width: 100%;
         height: 50%;
         position: absolute;
-        margin-top: 100rem;
-        margin: 30px 50px;
+        margin-top: 5rem;
+        padding: 30px 50px;
         margin-left: 0rem;
         border-radius: 0px;
         flex-direction: column;
@@ -878,11 +866,11 @@ footer {
         margin-top: 30px;
     }
 
-    .box-descriçao{
+    .box-descriçao {
         display: none;
     }
 
-    footer{
+    footer {
         background: #551e53;
         height: 100px;
         display: flex;
@@ -890,5 +878,6 @@ footer {
         justify-content: center;
         letter-spacing: 1px;
         padding-left: 8%;
+
     }
 }
