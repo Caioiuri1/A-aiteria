@@ -733,8 +733,6 @@ footer {
         position: absolute;
         height: 123vh;
         z-index: -9000;
-        border-bottom-left-radius: 0px;
-        border-top-left-radius: 0px;
         transition: .6s;
     }
 
@@ -799,7 +797,6 @@ footer {
         z-index: -1000;
         border-bottom-left-radius: 16px;
         border-top-left-radius: 16px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         transition: .9s;
     }
 
