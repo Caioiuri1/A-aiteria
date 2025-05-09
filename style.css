@@ -661,7 +661,7 @@ footer {
         width: 100%;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 0px;
-
+        box-shadow: none;
     }
 
     .box-ajuste {
@@ -798,6 +798,7 @@ footer {
         border-bottom-left-radius: 16px;
         border-top-left-radius: 16px;
         transition: .9s;
+        box-shadow: none;
     }
 
     .box-compras.fim {
