@@ -601,8 +601,7 @@ footer {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 320px) {
     .nav {
         padding: 25px 60px;
     }
@@ -691,27 +690,25 @@ footer {
     }
 
     .img-monte img {
-        height: 350px;
+        height: 280px;
     }
 
     .box-elementos {
         display: grid;
-        grid-template-columns: repeat(2, minmax(60px, 1fr));
-        justify-content: center;
-        position: absolute;
+        grid-template-columns: repeat(2, minmax(40px, 1fr));
         margin-left: 0%;
-        margin-top: 50rem;
-        padding-left: 30px;
-        gap: 3rem;
+        margin-top: 40rem;
+        padding-left: 50px;
+        gap: 20px;
     }
 
     .button {
-        position: absolute;
+
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: 25%;
-        margin-top: 102rem;
+        margin-top: 90rem;
     }
 
     .button button {
@@ -730,7 +727,281 @@ footer {
         width: 000%;
         margin-left: 0%;
         margin-top: 44rem;
+        height: 123vh;
+        z-index: -9000;
+        transition: .6s;
+    }
+
+    .menu.abrir {
+        width: 100%;
+        z-index: 1000;
+        height: 120vh;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 26rem;
+    }
+
+    .logo img {
+        height: 50px;
+        display: none;
+    }
+
+    .logo h1 {
+        margin-right: 52rem;
+        font-size: 30px;
+    }
+
+    .h1-potes h1 {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .açai-potes {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .ex-potes {
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .ex-potes button {
+        color: #ffffff;
+        background: #551e53;
+        padding: 10px 15px;
+        border-radius: 16px;
+        transition: all 0.6s ease-in-out;
+        font-size: 17px;
+        border: none;
+    }
+
+    .box-compras {
+        background: #ffffff;
         position: absolute;
+        width: 00%;
+        margin-left: 22%;
+        margin-top: 45rem;
+        position: absolute;
+        height: 85vh;
+        z-index: -1000;
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+        transition: .9s;
+        box-shadow: none;
+    }
+
+    .box-compras.fim {
+        margin-top: 45rem;
+        width: 20rem;
+        z-index: 9000;
+        height: 820px;
+    }
+
+    .contador-just {
+        display: flex;
+        position: absolute;
+        left: 15rem;
+        gap: 20px;
+        margin-top: 3px;
+    }
+
+    .Finalizar-Pedido {
+        display: flex;
+        position: absolute;
+        left: 20%;
+        margin-top: 70px;
+    }
+
+    .contato {
+        background: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-box {
+
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        margin-top: 20rem;
+        padding: 30px 50px;
+        margin-left: 0rem;
+        border-radius: 0px;
+        flex-direction: column;
+    }
+
+    .h1-contato h1 {
+        color: #551e53;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box-input label {
+        color: black;
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 7px;
+    }
+
+    .maps {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 30px;
+    }
+
+    .box-descriçao {
+        display: none;
+    }
+
+    footer {
+        background: #551e53;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        padding-left: 8%;
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 393px) {
+    .nav {
+        padding: 25px 60px;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .nav img {
+        height: 40px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 75vh;
+    }
+
+    .main-title {
+        margin-left: 30px;
+    }
+
+    .main-title h1 {
+        font-size: 3rem;
+        color: #ffcc34;
+        margin-top: 10rem;
+    }
+
+    .main-title br {
+        display: none;
+
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+
+    .box-img img {
+        height: 20rem;
+    }
+
+    .monte {
+        background: white;
+        min-height: 230vh;
+    }
+
+    .box-monte {
+        background: #551e53;
+        position: absolute;
+        margin-top: 1.8rem;
+        min-height: 85vh;
+        width: 100%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow: none;
+    }
+
+    .box-ajuste {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .h1-box h1 {
+        color: #ffcc34;
+        font-size: 40px;
+        margin-top: 4rem;
+        line-height: .7;
+    }
+
+    .h3-box h3 {
+        margin-top: 1rem;
+        font-size: 39px;
+    }
+
+    .p-box p {
+        margin-top: 1rem;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+
+    .img-monte img {
+        height: 300px;
+    }
+
+    .box-elementos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(40px, 1fr));
+        margin-left: 0%;
+        margin-top: 45rem;
+        padding-left: 50px;
+        gap: 20px;
+    }
+
+    .button {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        margin-top: 94rem;
+    }
+
+    .button button {
+        width: 200px;
+        height: 50px;
+        background: #ffcc34;
+        color: #551e53;
+        border: none;
+        font-size: 16px;
+        border-radius: 16px;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .menu {
+        background: #ffffff;
+        width: 000%;
+        margin-left: 0%;
+        margin-top: 44rem;
         height: 123vh;
         z-index: -9000;
         transition: .6s;
@@ -831,12 +1102,11 @@ footer {
     }
 
     .contato-box {
-        background: rgb(255, 255, 255);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
         width: 100%;
         height: 50%;
         position: absolute;
-        margin-top: 5rem;
+        margin-top: 0rem;
         padding: 30px 50px;
         margin-left: 0rem;
         border-radius: 0px;
@@ -877,6 +1147,432 @@ footer {
         justify-content: center;
         letter-spacing: 1px;
         padding-left: 8%;
+    }
+}
+
+@media screen and (min-width: 394px) and (max-width: 500px) {
+    .nav {
+        padding: 25px 60px;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .nav img {
+        height: 40px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 75vh;
+    }
+
+    .main-title {
+        margin-left: 30px;
+    }
+
+    .main-title h1 {
+        font-size: 3rem;
+        color: #ffcc34;
+        margin-top: 10rem;
+    }
+
+    .main-title br {
+        display: none;
 
     }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+
+    .box-img img {
+        height: 20rem;
+    }
+
+    .monte {
+        background: white;
+        min-height: 200vh;
+    }
+
+    .box-monte {
+        background: #551e53;
+        position: absolute;
+        margin-top: 1.8rem;
+        min-height: 80vh;
+        width: 100%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow: none;
+    }
+
+    .box-ajuste {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .h1-box h1 {
+        color: #ffcc34;
+        font-size: 40px;
+        margin-top: 4rem;
+        line-height: .7;
+    }
+
+    .h3-box h3 {
+        margin-top: 1rem;
+        font-size: 39px;
+    }
+
+    .p-box p {
+        margin-top: 1rem;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+
+    .img-monte img {
+        height: 380px;
+    }
+
+    .box-elementos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(40px, 1fr));
+        margin-left: 0%;
+        margin-top: 50rem;
+        padding-left: 50px;
+        gap: 20px;
+    }
+
+    .button {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        margin-top: 100rem;
+    }
+
+    .button button {
+        width: 200px;
+        height: 50px;
+        background: #ffcc34;
+        color: #551e53;
+        border: none;
+        font-size: 16px;
+        border-radius: 16px;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .menu {
+        background: #ffffff;
+        width: 000%;
+        margin-left: 0%;
+        margin-top: 44rem;
+        height: 123vh;
+        z-index: -9000;
+        transition: .6s;
+    }
+
+    .menu.abrir {
+        width: 100%;
+        z-index: 1000;
+        height: 120vh;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 26rem;
+    }
+
+    .logo img {
+        height: 50px;
+        display: none;
+    }
+
+    .logo h1 {
+        margin-right: 52rem;
+        font-size: 30px;
+    }
+
+    .h1-potes h1 {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .açai-potes {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .ex-potes {
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .ex-potes button {
+        color: #ffffff;
+        background: #551e53;
+        padding: 10px 15px;
+        border-radius: 16px;
+        transition: all 0.6s ease-in-out;
+        font-size: 17px;
+        border: none;
+    }
+
+    .box-compras {
+        background: #ffffff;
+        position: absolute;
+        width: 00%;
+        margin-left: 22%;
+        margin-top: 45rem;
+        position: absolute;
+        height: 85vh;
+        z-index: -1000;
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+        transition: .9s;
+        box-shadow: none;
+    }
+
+    .box-compras.fim {
+        margin-top: 45rem;
+        width: 20rem;
+        z-index: 9000;
+        height: 820px;
+    }
+
+    .contador-just {
+        display: flex;
+        position: absolute;
+        left: 15rem;
+        gap: 20px;
+        margin-top: 3px;
+    }
+
+    .Finalizar-Pedido {
+        display: flex;
+        position: absolute;
+        left: 20%;
+        margin-top: 70px;
+    }
+
+    .contato {
+        background: white;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-box {
+
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        padding: 30px 50px;
+        margin-left: 0rem;
+        border-radius: 0px;
+        flex-direction: column;
+    }
+
+    .h1-contato h1 {
+        color: #551e53;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box-input label {
+        color: black;
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 7px;
+    }
+
+    .maps {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 30px;
+    }
+
+    .box-descriçao {
+        display: none;
+    }
+
+    footer {
+        background: #551e53;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        padding-left: 8%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+
+    .main {
+        min-height: 80vh;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 20rem;
+    }
+
+    .box-img img {
+        height: 30rem;
+    }
+
+    .box-ajuste {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .box-elementos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        position: absolute;
+        margin-left: 52%;
+        margin-top: 1.8rem;
+        padding-left: 50px;
+        gap: 1rem;
+    }
+
+    .button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65%;
+    margin-top: 62%;
+}
+
+.menu {
+    background: #ffffff;
+    width: 0%;
+    margin-left: 50%;
+    margin-top: 1.8rem;
+    position: absolute;
+    height: 85vh;
+    z-index: -1;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.342);
+    transition: .6s;
+
+}
+
+.menu.abrir {
+    width: 50%;
+    z-index: 1000;
+    height: 102vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 1rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    color: #551e53;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.box-compras {
+    background: #ffffff;
+    position: absolute;
+    width: 00%;
+    margin-left: 76%;
+    margin-top: 1.8rem;
+    position: absolute;
+    height: 85vh;
+    z-index: -1000;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .9s;
+}
+
+.box-compras.fim {
+    width: 19rem;
+    z-index: 9000;
+    height: 102vh;
+}
+
+
+
+
+    .contato {
+        background: white;
+        min-height: 110vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-box {
+
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        margin-top: 10rem;
+        padding: 30px 50px;
+        margin-left:1rem;
+        border-radius: 16px;
+        flex-direction: column;
+    }
+
+    .maps {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+.img-maps img {
+    display: flex;
+    height: 280px;
+    padding-right: 30px;
+}
+
+.localizaçao img {
+    height: 30px;
+}
+
+.box-descriçao {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    position: absolute;
+    margin-top: 41rem;
+    margin-left: 15%;
+    gap: 5rem;
+}
 }
