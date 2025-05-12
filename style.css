@@ -876,7 +876,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 393px) {
+@media screen and (min-width: 360px) and (max-width: 393px) {
     .nav {
         padding: 25px 60px;
     }
